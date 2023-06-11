@@ -8,6 +8,7 @@ pkg i -y figlet toilet
 music(){
 ls ~ |
 toilet |
+figlet |
 termux-tts-speak \
 -s MUSIC \ # sets stream to music, gets around do not disturb
 -r 2 \ # double speed
